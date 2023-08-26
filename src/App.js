@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AboutUsSection from "./componenets/AboutUsSection";
+import ContactSection from "./componenets/ContactSection";
+import CoursesSection from "./componenets/CoursesSection";
+import FeatureSection from "./componenets/FeatureSection";
+import FutureSection from "./componenets/FutureSection";
+import Hero from "./componenets/Hero";
+import Navbar from "./componenets/Navbar";
+import ReviewsSection from "./componenets/ReviewSection";
+import WhyChooseUsSection from "./componenets/WhyChooseUsSection";
+import { Element } from "react-scroll";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Element name="home">
+         <Navbar />
+         </Element>
+      <Hero />
+      <FeatureSection />
+      <Element name="about">
+      <AboutUsSection />
+      </Element>  
+      <FutureSection />
+      <Element name="courses">
+      <CoursesSection/>
+      </Element>  
+      <WhyChooseUsSection/>
+      <ReviewsSection/>
+      <Element name="contact">
+      <ContactSection/>
+      </Element>  
     </div>
   );
 }

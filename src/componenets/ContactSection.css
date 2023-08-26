@@ -1,0 +1,76 @@
+.contact-section {
+    display: flex;
+    background-image: url("../Assets/10.png");
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .contact-image {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 100%;
+  }
+  
+  .contact-content {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .submit-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  

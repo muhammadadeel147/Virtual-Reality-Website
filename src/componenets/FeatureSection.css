@@ -1,0 +1,49 @@
+.feature-section {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+  }
+  
+  .feature-image {
+    flex: 1;
+    padding-right: 20px;
+    text-align: center;
+  }
+  
+  .feature-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature-content {
+    flex: 1;
+    padding-left: 20px;
+   margin-right: 5%;
+   
+  }
+  
+  .feature-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#3ea2e0 ;
+  
+  }
+  
+  .feature-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-learn-more {
+    font-size: 18px;
+    font-weight: bold;
+    color:#3ea2e0 ;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .feature-learn-more:hover {
+    color:#91bdd9 ;
+  }
+  

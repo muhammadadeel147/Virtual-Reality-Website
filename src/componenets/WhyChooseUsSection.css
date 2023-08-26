@@ -1,0 +1,53 @@
+.why-choose-us-section {
+    display: flex;
+    background-image: url("../Assets/9.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+  
+  }
+  
+  .why-choose-us-content {
+    flex: 1;
+    padding-right: 40px;
+    margin-left: 15%;
+  }
+  
+  .why-choose-us-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#3ea2e0 ;
+ 
+  }
+  
+  .why-choose-us-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .why-choose-us-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .why-choose-us-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .why-choose-us-list li:before {
+    content: "\2022"; 
+    color:#3ea2e0 ;
+    position: absolute;
+    left: -20px;
+  }
+  
+  .why-choose-us-image {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 100%;
+  }
+  
